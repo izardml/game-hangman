@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    height: 98vh;
+    position: relative;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+#game-over,
+#game-ui {
+    width: 960px;
+    height: 600px;
+    position: absolute;
+}
+
+#game-over {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#game-over h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    margin: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#form {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.kata {
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+    display: inline-block;
+    width: 1rem;
+    margin: 5px;
+}
